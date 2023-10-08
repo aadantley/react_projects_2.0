@@ -1,0 +1,17 @@
+.Profile-container {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.Profile-avatar {
+    width: 150px;
+}
+
+.Profile-container > ul > li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Profile-container > ul > li > span {
+    font-weight: 600;
+}
