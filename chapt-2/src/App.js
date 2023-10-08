@@ -7,6 +7,7 @@ import './App.css';
 import Header from './components/Header';
 import Profile from './pages/Profile';
 import Projects from './pages/Projects';
+import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Route 
         path='/projects'
         element={<Projects userName={'aadantley'} />}
+        />
+        <Route
+        path='/projects/:name'
+        element={<ProjectDetail userName='aadantley' />}
         />
       </Routes>
       </BrowserRouter>
